@@ -1,0 +1,33 @@
+/* 
+万恶的IE
+*/
+/* 修正IE6振动bug */
+html body {background-attachment:fixed;}
+#topnav li a, #topnav li a:link {display:block;width:85px; text-align:center;filter:shadow(color=#ffffff,direction:135,strength:1);}
+#topnav .current-menu-item a,#topnav .current_page_item a {display:block;width:85px; text-align:center;filter:shadow(color=#ffffff,direction:135,strength:1);}
+#topnav  {font: 15px 'Alpida Unicode System','宋体','Arial','Lucida Grande','Tahoma',Verdana,sans-serif;}
+#topnav li a, #topnav li a:link, #topnav li a:visited ,#topnav li a:hover, #topnav li a:active{
+	padding: 0 10px 0 10px;
+	}
+#topnav  li ul li a {
+	background: #e56c42;
+	width: 120px !important;
+	height:30px !important;
+	filter: alpha(opacity=80) !important;
+	}
+#topnav  li ul ul {
+	_margin: -31px 0 0 140px;
+	}
+#topnav  li ul ul {
+	margin: -31px 0 0 140px;
+	}
+#topnav  li ul {
+	width: 140px;
+	}
+.entry_box {
+	direction:rtl;
+	position:relative;
+	background:#fff;
+	width:710px;
+	padding: 12px 10px 0px 10px;
+	}

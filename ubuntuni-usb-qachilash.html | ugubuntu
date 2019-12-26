@@ -1,0 +1,1059 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+ 
+
+	
+<link rel="stylesheet" type="text/css" href="http://www.ugubuntu.com/wp-content/themes/HotNewspro24/style.css" />
+<link rel="stylesheet" href="http://www.ugubuntu.com/wp-content/themes/HotNewspro24/css/css.css" />
+<link rel="stylesheet" href="http://www.ugubuntu.com/wp-content/themes/HotNewspro24/css/home.css" />
+
+
+
+
+<!--[if IE]> <link rel="stylesheet" href="http://www.ugubuntu.com/wp-content/themes/HotNewspro24/css/ie.css" /> <![endif]--><link rel="alternate" type="application/rss+xml" title="ugubuntu RSS Feed" href="http://www.ugubuntu.com/feed" />
+<link rel="alternate" type="application/atom+xml" title="ugubuntu Atom Feed" href="http://www.ugubuntu.com/feed/atom" />
+<link rel="pingback" href="http://www.ugubuntu.com/xmlrpc.php" />
+<link rel="shortcut icon" href="http://www.ugubuntu.com/wp-content/themes/HotNewspro24/images/favicon.ico" />
+<script type="text/javascript" src="http://www.ugubuntu.com/wp-content/themes/HotNewspro24/js/jquery.min.js" ></script>
+
+<link rel="stylesheet" href="http://www.ugubuntu.com/wp-content/plugins/wp-terminal/style/wp-terminal.css" type="text/css" media="screen" />
+<link rel='stylesheet' id='colorbox-theme1-css'  href='http://www.ugubuntu.com/wp-content/plugins/jquery-colorbox/themes/theme1/colorbox.css?ver=4.0' type='text/css' media='screen' />
+<link rel='stylesheet' id='fontFaces-css'  href='http://www.ugubuntu.com/wp-content/languages/fontfaces.css?ver=3.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-polls-css'  href='http://www.ugubuntu.com/wp-content/plugins/wp-polls/polls-css.css?ver=2.50' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-polls-rtl-css'  href='http://www.ugubuntu.com/wp-content/plugins/wp-polls/polls-css-rtl.css?ver=2.50' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.ugubuntu.com/wp-includes/js/l10n.js?ver=20101110'></script>
+<script type='text/javascript' src='http://www.ugubuntu.com/wp-includes/js/jquery/jquery.js?ver=1.4.4'></script>
+<script type='text/javascript' src='http://www.ugubuntu.com/wp-content/plugins/jquery-colorbox/js/jquery.colorbox-min.js?ver=1.3.16'></script>
+<script type='text/javascript' src='http://www.ugubuntu.com/wp-content/plugins/jquery-colorbox/js/jquery-colorbox-auto-min.js?ver=4.0'></script>
+<script type='text/javascript' src='http://www.ugubuntu.com/wp-content/plugins/jquery-colorbox/js/jquery-colorbox-hideFlash-min.js?ver=4.0'></script>
+<script type='text/javascript' src='http://www.ugubuntu.com/wp-content/languages/bedit.js?ver=3.1.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.ugubuntu.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.ugubuntu.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='ugubuntu' href='http://www.ugubuntu.com' />
+<meta name="generator" content="WordPress 3.1.1" />
+<style type="text/css">
+.wp-polls .pollbar {
+	margin: 1px;
+	font-size: 8px;
+	line-height: 10px;
+	height: 10px;
+	background: #532043;
+	border: 1px solid #e26032;
+}
+</style>
+        <!-- jQuery Colorbox 4.0 | by Arne Franken, http://www.techotronic.de/ -->
+        
+<script type="text/javascript">
+    // <![CDATA[
+    (function($) {
+        colorboxSelector = function() {
+
+            colorboxMaxWidth = colorboxImageMaxWidth;
+            colorboxMaxHeight = colorboxImageMaxHeight;
+            colorboxHeight = colorboxImageHeight;
+            colorboxWidth = colorboxImageWidth;
+            $("a:has(img):not(.colorbox-off)").each(function(index, obj) {
+                if ($(obj).attr("href").match(COLORBOX_IMG_PATTERN)) {
+                    colorboxImage(index, obj)
+                }
+            });
+            $(COLORBOX_LINK_CLASS).each(function(index, obj) {
+                colorboxLink(index, obj)
+            });
+        }
+    })(jQuery);
+    (function($) {
+        colorboxImage = function(index, obj) {
+            var $image = $(obj).find("img:first");
+            var $linkClasses = $(obj).attr("class");
+            colorboxGroupId = $linkClasses.match(COLORBOX_CLASS_MATCH) || $linkClasses.match(COLORBOX_MANUAL);
+            if (!colorboxGroupId) {
+                var $imageClasses = $image.attr("class");
+                if (!$imageClasses.match(COLORBOX_OFF)) {
+                    colorboxGroupId = $imageClasses.match(COLORBOX_CLASS_MATCH) || $imageClasses.match(COLORBOX_MANUAL);
+                }
+                if (colorboxGroupId) {
+                    colorboxGroupId = colorboxGroupId.toString().split('-')[1];
+                    if (colorboxGroupId == "manual") {
+                        colorboxGroupId = "nofollow";
+                    }
+                    colorboxTitle = $image.attr("title");
+
+                    colorboxWrapper(obj);
+                }
+            }
+        }
+    })(jQuery);
+    (function($) {
+        colorboxLink = function(index, obj) {
+            colorboxTitle = $(obj).attr("title");
+            if ($(obj).attr("href").match(COLORBOX_INTERNAL_LINK_PATTERN)) {
+                colorboxInline = true;
+            } else {
+                colorboxIframe = true;
+            }
+            colorboxGroupId = "nofollow";
+            colorboxMaxWidth = false;
+            colorboxMaxHeight = false;
+            colorboxHeight = colorboxLinkHeight;
+            colorboxWidth = colorboxLinkWidth;
+            if ($(obj).attr("href").match(COLORBOX_IMG_PATTERN)) {
+                colorboxIframe = false;
+                colorboxMaxWidth = colorboxImageMaxWidth;
+                colorboxMaxHeight = colorboxImageMaxHeight;
+                colorboxHeight = colorboxImageHeight;
+                colorboxWidth = colorboxImageWidth;
+            }
+            colorboxWrapper(obj);
+        }
+    })(jQuery);
+
+    (function($) {
+        colorboxWrapper = function(obj) {
+            $(obj).colorbox({
+                rel:colorboxGroupId,
+                title:colorboxTitle,
+                maxHeight:colorboxMaxHeight,
+                maxWidth:colorboxMaxWidth,
+                initialHeight:colorboxInitialHeight,
+                initialWidth:colorboxInitialWidth,
+                height:colorboxHeight,
+                width:colorboxWidth,
+                slideshow:colorboxSlideshow,
+                slideshowAuto:colorboxSlideshowAuto,
+                scalePhotos:colorboxScalePhotos,
+                preloading:colorboxPreloading,
+                overlayClose:colorboxOverlayClose,
+                loop:colorboxLoop,
+                escKey:colorboxEscKey,
+                arrowKey:colorboxArrowKey,
+                scrolling:colorboxScrolling,
+                opacity:colorboxOpacity,
+                transition:colorboxTransition,
+                speed:colorboxSpeed,
+                slideshowSpeed:colorboxSlideshowSpeed,
+                close:colorboxClose,
+                next:colorboxNext,
+                previous:colorboxPrevious,
+                slideshowStart:colorboxSlideshowStart,
+                slideshowStop:colorboxSlideshowStop,
+                current:colorboxCurrent,
+                inline:colorboxInline,
+                iframe:colorboxIframe
+            });
+        }
+    })(jQuery);
+    // ]]>
+</script><script type="text/javascript">
+    // <![CDATA[
+    var COLORBOX_INTERNAL_LINK_PATTERN = /^#.*/;
+    var COLORBOX_IMG_PATTERN = /\.(?:jpe?g|gif|png|bmp)/i;
+    var COLORBOX_MANUAL = "colorbox-manual";
+    var COLORBOX_OFF_CLASS = ".colorbox-off";
+    var COLORBOX_LINK_CLASS = ".colorbox-link";
+    var COLORBOX_OFF = "colorbox-off";
+    var COLORBOX_CLASS_MATCH = "colorbox-[0-9]+";
+
+    var colorboxInline = false;
+    var colorboxIframe = false;
+    var colorboxGroupId;
+    var colorboxTitle;
+    var colorboxWidth = false;
+    var colorboxHeight = false;
+    var colorboxMaxWidth = false;
+    var colorboxMaxHeight = false;
+    var colorboxSlideshow = false;
+    var colorboxSlideshowAuto = false;
+    var colorboxScalePhotos = false;
+    var colorboxPreloading = false;
+    var colorboxOverlayClose = false;
+    var colorboxLoop = true;
+    var colorboxEscKey = true;
+    var colorboxArrowKey = true;
+    var colorboxScrolling = true;
+    var colorboxOpacity = "0.85";
+    var colorboxTransition = "elastic";
+    var colorboxSpeed = 350;
+    var colorboxSlideshowSpeed = 2500;
+    var colorboxClose = "close";
+    var colorboxNext = "next";
+    var colorboxPrevious = "previous";
+    var colorboxSlideshowStart = "start slideshow";
+    var colorboxSlideshowStop = "stop slideshow";
+    var colorboxCurrent = "{current} of {total} images";
+
+    var colorboxImageMaxWidth = false;
+    var colorboxImageMaxHeight = false;
+    var colorboxImageHeight = false;
+    var colorboxImageWidth = false;
+
+    var colorboxLinkHeight = false;
+    var colorboxLinkWidth = false;
+
+    var colorboxInitialHeight = 100;
+    var colorboxInitialWidth = 300;
+
+    jQuery(document).ready(function() {
+        colorboxSelector();
+    });
+    // ]]>
+</script>
+        <!-- jQuery Colorbox 4.0 | by Arne Franken, http://www.techotronic.de/ -->
+        <meta id="syntaxhighlighteranchor" name="syntaxhighlighter-version" content="3.1.1" />
+<script type="text/javascript" src="http://www.ugubuntu.com/wp-content/themes/HotNewspro24/js/jquery.min.js" ></script>
+<script type="text/javascript" src="http://www.ugubuntu.com/wp-content/themes/HotNewspro24/js/hoveraccordion.js"></script>
+<script type="text/javascript" src="http://www.ugubuntu.com/wp-content/themes/HotNewspro24/js/custom.js"></script>
+<script type="text/javascript">
+$(function () {
+$('.thumbnail img,.thumbnail_t img,.box_comment img,#slideshow img,.cat_ico,.cat_name,.r_comments img').hover(
+function() {$(this).fadeTo("fast", 0.5);},
+function() {$(this).fadeTo("fast", 1);
+});
+});
+</script>
+<!-- PNG -->
+<!--[if lt IE 7]>
+<script type="text/javascript" src="http://www.ugubuntu.com/wp-content/themes/HotNewspro24/js/pngfix.js"></script>
+<script type="text/javascript">
+DD_belatedPNG.fix('.boxCaption,.top_box,.logo,.reply');
+</script>
+<![endif]-->
+
+<!-- 图片延迟加载 -->
+<script type="text/javascript" src="http://www.ugubuntu.com/wp-content/themes/HotNewspro24/js/lazyload.js"></script>
+<script type="text/javascript">
+	$(function() {          
+    	$("#post img,#content img,#images_content img").lazyload({
+        	placeholder:"http://www.ugubuntu.com/wp-content/themes/HotNewspro24/images/load.gif",
+            effect:"fadeIn"
+          });
+    	});
+</script><!-- IE6菜单 -->
+<script type="text/javascript"><!--//--><![CDATA[//><!--
+sfHover = function() {
+	if (!document.getElementsByTagName) return false;
+	var sfEls = document.getElementById("menu").getElementsByTagName("li");
+
+	for (var i=0; i<sfEls.length; i++) {
+		sfEls[i].onmouseover=function() {
+			this.className+=" sfhover";
+		}
+		sfEls[i].onmouseout=function() {
+			this.className=this.className.replace(new RegExp(" sfhover\\b"), "");
+		}
+	}	
+	var sfEls = document.getElementById("topnav").getElementsByTagName("li");
+	for (var i=0; i<sfEls.length; i++) {
+		sfEls[i].onmouseover=function() {
+			this.className+=" sfhover";
+		}
+		sfEls[i].onmouseout=function() {
+			this.className=this.className.replace(new RegExp(" sfhover\\b"), "");
+		}
+	}
+}
+if (window.attachEvent) window.attachEvent("onload", sfHover);
+//--><!]]></script>
+<script type="text/javascript" src="http://www.ugubuntu.com/wp-content/themes/HotNewspro24/js/muscript.js"></script>
+
+</head>
+<body>
+<div id="wrapper">
+<a href="http://www.ugubuntu.com/?uls=uu">&#1574;&#1735;&#1610;&#1594;&#1735;&#1585;&#1670;&#1749;</a> | <a href="http://www.ugubuntu.com/?uls=ul">&#85;&#121;&#103;&#104;&#117;&#114;&#99;&#104;&#101;</a> | <a href="http://www.ugubuntu.com/?uls=us">&#1059;&#1081;&#1171;&#1091;&#1088;&#1095;&#1241;</a>
+<div id="top">
+
+	<div id='topnav'>
+
+	  <div class="left_top ">
+				<div class="home"><a href="http://www.ugubuntu.com" title="باش بەت" class="home"></a></div>
+				<div class="menu"><ul><li class="page_item page-item-24"><a href="http://www.ugubuntu.com/biket-heqqide" title="بېكەت ھەققىدە">بېكەت ھەققىدە</a><ul class='children'><li class="page_item page-item-776"><a href="http://www.ugubuntu.com/biket-heqqide/alaqilishing" title="ئالاقىلىشىڭ">ئالاقىلىشىڭ</a></li><li class="page_item page-item-26"><a href="http://www.ugubuntu.com/biket-heqqide/sozqaldurung" title="سۆز قالدۇرۇڭ">سۆز قالدۇرۇڭ</a></li></ul></li><li class="page_item page-item-836"><a href="http://www.ugubuntu.com/blog-shekli" title="بىلوگ">بىلوگ</a><ul class='children'><li class="page_item page-item-839"><a href="http://www.ugubuntu.com/blog-shekli/resimlik" title="رەسىملىك">رەسىملىك</a></li><li class="page_item page-item-841"><a href="http://www.ugubuntu.com/blog-shekli/yazma-arxipi" title="يازما ئارخىپى">يازما ئارخىپى</a></li></ul></li><li class="page_item page-item-1342"><a href="http://www.ugubuntu.com/metbuat" title="مەتبۇئات">مەتبۇئات</a></li><li class="page_item page-item-32"><a href="http://www.ugubuntu.com/terjime" title="تەرجىمە">تەرجىمە</a></li><li class="page_item page-item-39"><a href="http://www.ugubuntu.com/chushurush" title="چۈشۈرۈش">چۈشۈرۈش</a></li><li class="page_item page-item-681"><a href="http://www.ugubuntu.com/ulinishlar" title="ئۇلىنىشلار">ئۇلىنىشلار</a></li></ul></div>
+ 
+			</div>
+			<!-- end: left_top --> 
+			<div id="searchbar">
+			  <form method="get" id="searchform" action="http://www.ugubuntu.com/">
+					<input type="text" value="ئىزدەش" onclick="this.value='';" name="s" id="s" class="swap_value" />
+					<input type="image" src="http://www.ugubuntu.com/wp-content/themes/HotNewspro24/images/go.gif" id="go" alt="Search" title="ئىزدەش" />
+				</form>
+			</div>
+			<!-- end: searchbar -->
+		</div>
+		<!-- end: topnav -->
+	</div>
+	<!-- end: top -->
+	<div id="header">
+		<div class="header_c">
+			<a href="http://www.ugubuntu.com"title="ugubuntu"><div class="logo"></div></a>			<div class="time">
+<script type="text/javascript">
+today=new Date();
+var day; var date; var hello;
+hour=new Date().getHours()
+if(hour < 4)hello='تاڭ يۇرۇش ئالدىدا !'
+else if(hour < 7)hello=' سالام سەھەر ! '
+else if(hour < 10)hello=' چۈشتىن بۇرۇن '
+else if(hour < 12)hello='چۈش ۋاقتى '
+else if(hour < 15)hello=' چۈشتىن كىيىن '
+else if(hour < 20)hello=' كەچلىكىڭىز خەيرىلىك بولسۇن ! '
+else {hello='تۈن يېرىم '}
+var webUrl = webUrl;
+document.write(' '+hello);
+</script>
+<span id=localtime>
+<script type="text/javascript">
+function showLocale(objD)
+{
+var str,colorhead,colorfoot;
+var yy = objD.getYear();
+if(yy<1900) yy = yy+1900;
+var MM = objD.getMonth()+1;
+if(MM<10) MM = '0' + MM;
+var dd = objD.getDate();
+if(dd<10) dd = '0' + dd;
+var hh = objD.getHours();
+if(hh<10) hh = '0' + hh;
+var mm = objD.getMinutes();
+if(mm<10) mm = '0' + mm;
+var ss = objD.getSeconds();
+if(ss<10) ss = '0' + ss;
+var ww = objD.getDay();
+if ( ww==0 ) colorhead="<font color=\"#000\">";
+if ( ww > 0 && ww < 6 ) colorhead="<font color=\"#000\">";
+if ( ww==6 ) colorhead="<font color=\"#000\">";
+if (ww==1) ww="دۈشەنبە";
+if (ww==0) ww="يەكشەنبە";
+if (ww==2) ww="سەيشەنبە";
+if (ww==3) ww="چارشەنبە";
+if (ww==4) ww="پەيشەنبە";
+if (ww==5) ww="خەيرىلىك جۈمە";
+if (ww==6) ww="شەنبە";
+colorfoot="</font>"
+str = colorhead + yy + "-يىل" + MM + "-ئاينىڭ" + dd + "-كۈنى " + hh + ":" + mm + ":" + ss + " " + ww + colorfoot;
+return(str);
+}
+function tick()
+{
+var today;
+today = new Date();
+document.getElementById("localtime").innerHTML = showLocale(today);
+window.setTimeout("tick()", 1000);
+}
+tick();
+</script>
+</span> 
+</div>		</div>
+		<div class="clear"></div>
+		<!-- end: header_c -->
+	</div>
+	<!-- end: header -->
+	<div id="featured" class="clearfix">
+		<div class="item grid">
+		<div class="top_t">
+					</div>
+		<!-- 截图 -->
+		<div class="thumbnail_hot">
+							<a href="http://www.ugubuntu.com/linux-diki-6-c-cpp-ide.html" rel="bookmark" title="لىنۇكسدىكى 6 دانە ++IDE C/C"><img class="home-thumb" src="http://www.ugubuntu.com/wp-content/uploads/2011/04/anjuta-300x228.jpg" width="236px" height="155px" alt="لىنۇكسدىكى 6 دانە ++IDE C/C"/></a>
+							</div>
+		<div class="top_box"><a href="http://www.ugubuntu.com/linux-diki-6-c-cpp-ide.html" rel="bookmark" title="لىنۇكسدىكى 6 دانە ++IDE C/C">تۇلۇق تېكىستى</a></div>
+		<div class="boxCaption">
+			<h2><a href="http://www.ugubuntu.com/linux-diki-6-c-cpp-ide.html" title="Permalink to لىنۇكسدىكى 6 دانە ++IDE C/C">لىنۇكسدىكى 6 دانە ++IDE C/C</a></h2>
+		</div>
+	</div>
+		<div class="item grid">
+		<div class="top_t">
+					</div>
+		<!-- 截图 -->
+		<div class="thumbnail_hot">
+			<img width="379" height="335" src="http://www.ugubuntu.com/wp-content/uploads/2011/03/LibreOfficelogo.jpg" class="home-thumb wp-post-image" alt="LibreOfficelogo" title="LibreOfficelogo" />				</div>
+		<div class="top_box"><a href="http://www.ugubuntu.com/ubuntu11-04-libreoffice.html" rel="bookmark" title="ئۇبۇنتۇ 11.04 نىڭ سۈكۈت ئىشخانا دېتالى LibreOffice">تۇلۇق تېكىستى</a></div>
+		<div class="boxCaption">
+			<h2><a href="http://www.ugubuntu.com/ubuntu11-04-libreoffice.html" title="Permalink to ئۇبۇنتۇ 11.04 نىڭ سۈكۈت ئىشخانا دېتالى LibreOffice">ئۇبۇنتۇ 11.04 نىڭ سۈكۈت ئىشخانا دېتالى LibreOffice</a></h2>
+		</div>
+	</div>
+		<div class="item grid">
+		<div class="top_t">
+					</div>
+		<!-- 截图 -->
+		<div class="thumbnail_hot">
+			<img width="140" height="100" src="http://www.ugubuntu.com/wp-content/uploads/2011/05/openfetion.png" class="home-thumb wp-post-image" alt="openfetion" title="openfetion" />				</div>
+		<div class="top_box"><a href="http://www.ugubuntu.com/openfetion.html" rel="bookmark" title="ئۇچارخەت ئۇبۇنتۇ 11.04 ئورگان مەنبەسىگە كىرگۈزۈلدى">تۇلۇق تېكىستى</a></div>
+		<div class="boxCaption">
+			<h2><a href="http://www.ugubuntu.com/openfetion.html" title="Permalink to ئۇچارخەت ئۇبۇنتۇ 11.04 ئورگان مەنبەسىگە كىرگۈزۈلدى">ئۇچارخەت ئۇبۇنتۇ 11.04 ئورگان مەنبەسىگە كىرگۈ</a></h2>
+		</div>
+	</div>
+		<div class="item grid">
+		<div class="top_t">
+					</div>
+		<!-- 截图 -->
+		<div class="thumbnail_hot">
+			<img width="99" height="100" src="http://www.ugubuntu.com/wp-content/uploads/2011/04/cairo-dock_t.jpg" class="home-thumb wp-post-image" alt="cairo-dock_t" title="cairo-dock_t" />				</div>
+		<div class="top_box"><a href="http://www.ugubuntu.com/ubuntugha-cairo-dock-qachilash.html" rel="bookmark" title="ئۇبۇنتۇغا cairo-dock قاچىلاش">تۇلۇق تېكىستى</a></div>
+		<div class="boxCaption">
+			<h2><a href="http://www.ugubuntu.com/ubuntugha-cairo-dock-qachilash.html" title="Permalink to ئۇبۇنتۇغا cairo-dock قاچىلاش">ئۇبۇنتۇغا cairo-dock قاچىلاش</a></h2>
+		</div>
+	</div>
+		<div class="clear"></div>
+</div>
+	 <div id="roll"><div title="بەت ئۈستىگە چىقىش" id="roll_top"></div><div title="بەت ئاستىغا چۈشۈش" id="fall"></div></div>
+<div id="content">
+	<div id="map">
+		<div class="browse">ھازىرقى ئورنىڭىز ＞<a title="باشلامچى بەتكە قايتىش" href="http://www.ugubuntu.com/">باش بەت</a> ＞ئېنىقسىز بەت</div>
+		<div id="feed"><a href="http://www.ugubuntu.com/feed" title="RSS">RSS</a></div>
+	</div>
+	<!-- end: menu -->
+	<div class="entry_box_s">
+		 <div class="entry">
+ 			<div class="error">
+ 				 <h2>كەچۈرۈڭ ، سىز ئىزدىگەن يازما ئۆچۈرۈلگەن ياكى بۇنداق يازما تېخى يېزىلمىغان .</h2>
+ 			</div>
+ 		  </div>
+		<div class="clear"></div>
+		<!-- end: entry -->
+		<b class="lt"></b>
+		<b class="rt"></b>
+	</div>
+	<div class="entry_sb">
+		<b class="lb"></b>
+		<b class="rb"></b>
+	</div>
+</div>
+<div id="sidebar">
+
+	<div class="tab">
+
+		<ul id=drawer>
+
+			<li><a href="#">ئەڭ يېڭى يازمىلار</a>
+
+			<div class="clear"></div>
+
+				<ul>
+
+					<ol id="newarticles">
+
+						
+						<a href="http://www.ugubuntu.com/phpmyadmin-3-4-1-rc1-elan-qilindi.html" rel="bookmark" title=" phpMyAdmin 3.4.1-rc1 ئېلان قىلىندىنىڭ تەپسىلاتى">phpMyAdmin 3.4.1-rc1 ئېلان قىلىندى</a>
+
+						
+						<a href="http://www.ugubuntu.com/jahannamide-flash-elan-suzush.html" rel="bookmark" title=" توردىكى سىن ھۆججىتى ئالدىغا قىستۇرۇلغان ئېلاننى سۈزۈۋېتىشنىڭ تەپسىلاتى">توردىكى سىن ھۆججىتى ئالدىغا قىستۇرۇلغ</a>
+
+						
+						<a href="http://www.ugubuntu.com/ug-ttf-fonts-deb2.html" rel="bookmark" title=" ئۇيغۇرچە فونت قاچىلايدىغان deb ھۆججىتى يېڭىلاندىنىڭ تەپسىلاتى">ئۇيغۇرچە فونت قاچىلايدىغان deb ھۆججىتى </a>
+
+						
+						<a href="http://www.ugubuntu.com/steadyflow-simple-download-manager-tool.html" rel="bookmark" title=" ئۇبۇنتۇدىكى ناھايىتى ياخشى چۈشۈرگۈچ Steadyflowنىڭ تەپسىلاتى">ئۇبۇنتۇدىكى ناھايىتى ياخشى چۈشۈرگۈچ S</a>
+
+						
+						<a href="http://www.ugubuntu.com/what-is-the-ppa-how-to-add-ppa.html" rel="bookmark" title=" PPA مەنبەسى دېگەن نېمە؟ ئۇنى قانداق قۇشىمىز؟نىڭ تەپسىلاتى">PPA مەنبەسى دېگەن نېمە؟ ئۇنى قانداق قۇ</a>
+
+						
+						<a href="http://www.ugubuntu.com/gnome-terminal-uyghur-language.html" rel="bookmark" title=" gnome تېرمىنالىدا ئۇيغۇرچە كۆرسىتىشنىڭ تەپسىلاتى">gnome تېرمىنالىدا ئۇيغۇرچە كۆرسىتىش</a>
+
+						
+						<a href="http://www.ugubuntu.com/mark-shuttleworth-delivers-uds-keynote-address-sets-goal-for-200-million-ubuntu-users-in-4-years.html" rel="bookmark" title=" ئۇبۇنتۇنىڭ يېڭى نىشانى تۆت يىل ئىچىدە ئىشلەتكۈچى سانىنى 200 مىليۇنغا يەتكۈزۈشنىڭ تەپسىلاتى">ئۇبۇنتۇنىڭ يېڭى نىشانى تۆت يىل ئىچىدە </a>
+
+						
+						<a href="http://www.ugubuntu.com/ubuntuning-qaysiz-nusxisini-ishlitiwatisiz.html" rel="bookmark" title=" ئۇبۇنتۇنىڭ قايسى نۇسخىسىنى ئىشلىتىۋاتىسىز؟نىڭ تەپسىلاتى">ئۇبۇنتۇنىڭ قايسى نۇسخىسىنى ئىشلىتىۋات</a>
+
+						
+						<a href="http://www.ugubuntu.com/qq-for-wine.html" rel="bookmark" title=" ئۇبۇنتۇغا QQ2010 قاچىلاشنىڭ تەپسىلاتى">ئۇبۇنتۇغا QQ2010 قاچىلاش</a>
+
+						
+						<a href="http://www.ugubuntu.com/td-html5-oyuni.html" rel="bookmark" title=" مەن ناھىيىنى ياقتۇرۇپ قالغان مۇداپىئە ئويۇنى «HTML5»نىڭ تەپسىلاتى">مەن ناھىيىنى ياقتۇرۇپ قالغان مۇداپىئە</a>
+
+						
+					</ol>
+
+				</ul>
+
+			<li><a href="#">ئاۋات يازمىلار</a>
+
+			<div class="clear"></div>
+
+				<ul>
+
+					<ol id="hotarticles">
+
+					
+<li><a href= "http://www.ugubuntu.com/ubuntuning-qaysiz-nusxisini-ishlitiwatisiz.html" rel="bookmark" title="ئۇبۇنتۇنىڭ قايسى نۇسخىسىنى ئىشلىتىۋاتىسىز؟  (26 پارچە ئىنكاس )" >ئۇبۇنتۇنىڭ قايسى نۇسخىسىنى ئىشلىتىۋات</a></li>
+<li><a href= "http://www.ugubuntu.com/ug-ttf-fonts-deb.html" rel="bookmark" title="بىر deb ھۆججىتى بىلەن ئۇبۇنتۇغا ئۇيغۇرچە فونتلارنى تۇللۇق قاچىلاش (20 پارچە ئىنكاس )" >بىر deb ھۆججىتى بىلەن ئۇبۇنتۇغا ئۇيغۇرچ</a></li>
+<li><a href= "http://www.ugubuntu.com/ubuntu11-04-uchun-mexsus-tema.html" rel="bookmark" title="يېڭى تارقىتىلغان ئۇبۇنتۇ 11.04 ئۈچۈن مەخسۇس تېما (10 پارچە ئىنكاس )" >يېڭى تارقىتىلغان ئۇبۇنتۇ 11.04 ئۈچۈن مەخ</a></li>
+<li><a href= "http://www.ugubuntu.com/ubuntugha-gnome3-qachilash.html" rel="bookmark" title="ئۇبۇنتۇغا Gnome3 قاچىلاش (4 پارچە ئىنكاس )" >ئۇبۇنتۇغا Gnome3 قاچىلاش</a></li>
+<li><a href= "http://www.ugubuntu.com/qq-for-wine.html" rel="bookmark" title="ئۇبۇنتۇغا QQ2010 قاچىلاش (4 پارچە ئىنكاس )" >ئۇبۇنتۇغا QQ2010 قاچىلاش</a></li>
+<li><a href= "http://www.ugubuntu.com/jahanname-yuzidiki-phtoshop.html" rel="bookmark" title="جاھاننامە يۈزىدىكى Photshop (3 پارچە ئىنكاس )" >جاھاننامە يۈزىدىكى Photshop</a></li>
+<li><a href= "http://www.ugubuntu.com/linux-diki-6-c-cpp-ide.html" rel="bookmark" title="لىنۇكسدىكى 6 دانە ++IDE C/C (2 پارچە ئىنكاس )" >لىنۇكسدىكى 6 دانە ++IDE C/C</a></li>
+<li><a href= "http://www.ugubuntu.com/weqq-maharetliri.html" rel="bookmark" title="webQQ ئىشلىتىشتىكى بىر قانچە ماھارەتلەر (2 پارچە ئىنكاس )" >webQQ ئىشلىتىشتىكى بىر قانچە ماھارەتلەر</a></li>
+<li><a href= "http://www.ugubuntu.com/td-html5-oyuni.html" rel="bookmark" title="مەن ناھىيىنى ياقتۇرۇپ قالغان مۇداپىئە ئويۇنى «HTML5»  (2 پارچە ئىنكاس )" >مەن ناھىيىنى ياقتۇرۇپ قالغان مۇداپىئە</a></li>
+<li><a href= "http://www.ugubuntu.com/gnome-terminal-uyghur-language.html" rel="bookmark" title="gnome تېرمىنالىدا ئۇيغۇرچە كۆرسىتىش (2 پارچە ئىنكاس )" >gnome تېرمىنالىدا ئۇيغۇرچە كۆرسىتىش</a></li>
+					</ol>
+
+				</ul>		
+
+			<li><a href="#">خالىغانچە كۆرۈپ باقاي</a>
+
+			<div class="clear"></div>
+
+				<ul>
+
+					<ol id="advice">
+
+										<li><a href="http://www.ugubuntu.com/weqq-maharetliri.html" rel="bookmark" title="Permanent Link to webQQ ئىشلىتىشتىكى بىر قانچە ماھارەتلەر">webQQ ئىشلىتىشتىكى بىر قانچە ماھارەتلەر</a></li>
+							<li><a href="http://www.ugubuntu.com/60-gnome-uslubi.html" rel="bookmark" title="Permanent Link to ناھايىتى كۆركەم 60 دانە ئۇبۇنتۇ Gnome ئۇسلۇبى">ناھايىتى كۆركەم 60 دانە ئۇبۇنتۇ Gnome ئۇس</a></li>
+							<li><a href="http://www.ugubuntu.com/ubuntuning-heqsiz-cd.html" rel="bookmark" title="Permanent Link to ئۇبۇنتۇنىڭ ھەقسىز CD دىسكىسىغا ئېرىشىش">ئۇبۇنتۇنىڭ ھەقسىز CD دىسكىسىغا ئېرىشى</a></li>
+							<li><a href="http://www.ugubuntu.com/firefox-lancher-chushurush-suriti-qisturmisi.html" rel="bookmark" title="Permanent Link to Firefox دا چۈشۈرۈش سۈرىتىنى كۆرسىتىپ بېرىدىغان قىستۇرما قوشۇش">Firefox دا چۈشۈرۈش سۈرىتىنى كۆرسىتىپ بېرى</a></li>
+							<li><a href="http://www.ugubuntu.com/ubuntugha-gnome3-qachilash.html" rel="bookmark" title="Permanent Link to ئۇبۇنتۇغا Gnome3 قاچىلاش">ئۇبۇنتۇغا Gnome3 قاچىلاش</a></li>
+							<li><a href="http://www.ugubuntu.com/ubuntu10-10ni-qachilash-vidio-derislik.html" rel="bookmark" title="Permanent Link to ئۇبۇنتۇ 10.10 نى قاچىلاش سۈرەتلىك دەرسلىكى">ئۇبۇنتۇ 10.10 نى قاچىلاش سۈرەتلىك دەرسلى</a></li>
+							<li><a href="http://www.ugubuntu.com/google-chrome-ibus-kiguzuguch.html" rel="bookmark" title="Permanent Link to chrome غا Ibus ئارقىلىق خەنچە كىرگۈزگەندىكى مەسىلىنى ھەل قىلىش">chrome غا Ibus ئارقىلىق خەنچە كىرگۈزگەندىك</a></li>
+							<li><a href="http://www.ugubuntu.com/ubuntuda-openoffice-maharatliri.html" rel="bookmark" title="Permanent Link to ئۇبۇنتۇدا Openoffice ئىشلىتىشتىكى ماھارەتلەر">ئۇبۇنتۇدا Openoffice ئىشلىتىشتىكى ماھارەت</a></li>
+							<li><a href="http://www.ugubuntu.com/ubuntuni-yengi-qachilghandin-kiyin1.html" rel="bookmark" title="Permanent Link to ئۇبۇنتۇنى يېڭى قاچىلىغاندىن كىيىن، يەنە نېمىلەرنى قىلىمەن (1)">ئۇبۇنتۇنى يېڭى قاچىلىغاندىن كىيىن، يە</a></li>
+							<li><a href="http://www.ugubuntu.com/linuxni-toghra-tunush.html" rel="bookmark" title="Permanent Link to لىنۇكس مەشغۇلات سىستېمىسىنى توغرا تونۇش">لىنۇكس مەشغۇلات سىستېمىسىنى توغرا تون</a></li>
+			
+					</ol> 
+
+				</ul>
+
+			</li>
+
+		</ul>
+
+	</div>
+
+	<!-- end: tab -->
+
+	<div class="clear"></div>
+
+	<div class="s_category">
+
+	<h3>تەۋسىيىلىك سەھىپە</h3>	
+
+	<div class="categories">
+
+		<div class="categories_c">
+
+			
+				
+				
+				<ul class="cat_h">
+
+					<div class="ico">	<div class="cat_ico">
+		<a href="http://www.ugubuntu.com/category/cat_ico30" title="ئۇبۇنتۇ ئاساسى ساۋاتلىرى">
+		<img src="http://www.ugubuntu.com/wp-content/themes/HotNewspro24/images/caticon/cat_ico30.gif" />
+		</a>
+	</div>
+</div>
+
+					<span class="cat_name_h">
+
+						<a href="http://www.ugubuntu.com/category/cat_ico30" rel="bookmark" title="تېخىمۇ كۆپئۇبۇنتۇ ئاساسى ساۋاتلىرىگە مۇناسىۋەتلىك يازمىلار">ئۇبۇنتۇ ئاساسى ساۋاتلىرى</a>
+
+						<span class="cat_description"><p>نۆلدىن باشلاپ ئۆگەنگۈچىلەرئۈچۈن</p>
+</span>
+
+					</span>
+
+				</ul>
+
+				
+			
+				
+				
+				<ul class="cat_h">
+
+					<div class="ico">	<div class="cat_ico">
+		<a href="http://www.ugubuntu.com/category/cat_ico1" title="يۇمشاق دېتال تەۋسىيىسى">
+		<img src="http://www.ugubuntu.com/wp-content/themes/HotNewspro24/images/caticon/cat_ico1.gif" />
+		</a>
+	</div>
+</div>
+
+					<span class="cat_name_h">
+
+						<a href="http://www.ugubuntu.com/category/cat_ico1" rel="bookmark" title="تېخىمۇ كۆپيۇمشاق دېتال تەۋسىيىسىگە مۇناسىۋەتلىك يازمىلار">يۇمشاق دېتال تەۋسىيىسى</a>
+
+						<span class="cat_description"><p>ئەڭ يېڭى قۇرال/دېتاللار </p>
+</span>
+
+					</span>
+
+				</ul>
+
+				
+			
+				
+				
+				<ul class="cat_h">
+
+					<div class="ico">	<div class="cat_ico">
+		<a href="http://www.ugubuntu.com/category/cat_ico32" title="ئۇبۇنتۇ لىنۇكس يېڭىلىقلىرى">
+		<img src="http://www.ugubuntu.com/wp-content/themes/HotNewspro24/images/caticon/cat_ico32.gif" />
+		</a>
+	</div>
+</div>
+
+					<span class="cat_name_h">
+
+						<a href="http://www.ugubuntu.com/category/cat_ico32" rel="bookmark" title="تېخىمۇ كۆپئۇبۇنتۇ لىنۇكس يېڭىلىقلىرىگە مۇناسىۋەتلىك يازمىلار">ئۇبۇنتۇ لىنۇكس يېڭىلىقلىرى</a>
+
+						<span class="cat_description"><p>ئۇبۇنتۇ لىنۇكس يېڭىلىقلىرى</p>
+</span>
+
+					</span>
+
+				</ul>
+
+				
+			
+				
+				
+				<ul class="cat_h">
+
+					<div class="ico">	<div class="cat_ico">
+		<a href="http://www.ugubuntu.com/category/cat_ico42" title="ئۇبۇنتۇ ماھارەتلىرى">
+		<img src="http://www.ugubuntu.com/wp-content/themes/HotNewspro24/images/caticon/cat_ico42.gif" />
+		</a>
+	</div>
+</div>
+
+					<span class="cat_name_h">
+
+						<a href="http://www.ugubuntu.com/category/cat_ico42" rel="bookmark" title="تېخىمۇ كۆپئۇبۇنتۇ ماھارەتلىرىگە مۇناسىۋەتلىك يازمىلار">ئۇبۇنتۇ ماھارەتلىرى</a>
+
+						<span class="cat_description"><p>بۇيرۇق/ئويلاپ باقمىغان ماھارەتلەر</p>
+</span>
+
+					</span>
+
+				</ul>
+
+				
+			
+				
+				
+				<ul class="cat_h">
+
+					<div class="ico">	<div class="cat_ico">
+		<a href="http://www.ugubuntu.com/category/cat_ico14" title="سۈرەتلىك دەرسلىكلەر">
+		<img src="http://www.ugubuntu.com/wp-content/themes/HotNewspro24/images/caticon/cat_ico14.gif" />
+		</a>
+	</div>
+</div>
+
+					<span class="cat_name_h">
+
+						<a href="http://www.ugubuntu.com/category/cat_ico14" rel="bookmark" title="تېخىمۇ كۆپسۈرەتلىك دەرسلىكلەرگە مۇناسىۋەتلىك يازمىلار">سۈرەتلىك دەرسلىكلەر</a>
+
+						<span class="cat_description"><p>ئۇبۇنتۇ سۈرەتلىك دەرسلىكلىرى</p>
+</span>
+
+					</span>
+
+				</ul>
+
+				
+			
+ 		</div>
+
+		
+		<div class="clear"></div>
+
+	</div>
+
+	<div class="box-bottom">
+
+		<b class="lb"></b>
+
+		<b class="rb"></b>
+
+	</div>
+
+</div>
+
+
+	<div class="sg">
+<h3>ئىزدەش</h3>
+	<div class="box">
+		<div class="search">
+		<form action="/http://www.ugubuntu.com/search" id="cse-search-box">
+			<div>
+			<input type="hidden" name="cx" value="012932102599669570567:ppr6tvpdpwi" />
+			<input type="hidden" name="cof" value="FORID:10" />
+			<input type="text" onclick="this.value='';" name="q" id="q" size="26" class="swap_value" />
+			<input type="image" src="http://www.ugubuntu.com/wp-content/themes/HotNewspro24/images/go.gif" id="go" alt="Search" title="ئىزدەش" />
+		</div>
+		</form>
+		<script type="text/javascript" src="http://www.google.com/cse/brand?form=cse-search-box&lang=zh-ug"></script>
+		</div>
+	</div>
+<div class="box-bottom">
+	<b class="lb"></b>
+	<b class="rb"></b>
+</div>
+</div>
+
+
+	<div class="widget">
+
+		<h3>qq ugubuntu توپى</h3><div class="box">			<div class="textwidget"><a href="http://qun.qq.com/air/#148791813/"><img src="http://www.ugubuntu.com/ubuntuqq.jpg" border="0" width="215" height="90" alt="qq ugubuntu توپى coming soon"></a></div>
+		</div>
+    	<div class="box-bottom">
+			<b class="lb"></b>
+			<b class="rb"></b>
+		</div><h3>كومپيۇتېر ۋە تۇرمۇش ژورنىلى</h3><div class="box">			<div class="textwidget"><a href="http://www.xjcfan.com/a/News/IT/2011/0316/2026.html"><img src="http://www.ugubuntu.com/resim/jurnal.gif" border="0" width="215" height="90" alt= "Komputer we tumush"></a></div>
+		</div>
+    	<div class="box-bottom">
+			<b class="lb"></b>
+			<b class="rb"></b>
+		</div><h3>مىكرو بىلوگۇم</h3><div class="box">			<div class="textwidget"><a href="http://www.ugubuntu.com/mblog"><img src="http://www.ugubuntu.com/mblog.png" border="0" width="215" height="90" alt=''Mblog"></a></div>
+		</div>
+    	<div class="box-bottom">
+			<b class="lb"></b>
+			<b class="rb"></b>
+		</div>
+	</div>
+
+
+
+	<div id="top-comments-author">
+
+	<h3>ئاكتىپ زىيارەتچىلەر</h3>
+
+	<div class="box">
+
+		<div class="box_comment">
+
+			<a href='#' 'rel='external nofollow'' title='ministir (قالدۇرغان10پارچە)'><img alt='' src='http://1.gravatar.com/avatar/71369c1727d051bcc714301cfb800b6c?s=32&amp;d=wavatar&amp;r=G' class='avatar avatar-32 photo' height='32' width='32' /></a><a href='http://muhlis.biz' 'rel='external nofollow'' title='مۇخلىس (قالدۇرغان10پارچە)'><img alt='' src='http://0.gravatar.com/avatar/a636f8e415d1d249443ba0393b703b86?s=32&amp;d=wavatar&amp;r=G' class='avatar avatar-32 photo' height='32' width='32' /></a><a href='#' 'rel='external nofollow'' title='رېيىم (قالدۇرغان5پارچە)'><img alt='' src='http://0.gravatar.com/avatar/ac582493a2ec3abcb77ff563143a8661?s=32&amp;d=wavatar&amp;r=G' class='avatar avatar-32 photo' height='32' width='32' /></a><a href='http://oqoghuchi.blogbus.com' 'rel='external nofollow'' title='ئوقۇغۇچى (قالدۇرغان4پارچە)'><img alt='' src='http://1.gravatar.com/avatar/9497f54a1b9b45cf9058625f412b02f3?s=32&amp;d=wavatar&amp;r=G' class='avatar avatar-32 photo' height='32' width='32' /></a><a href='#' 'rel='external nofollow'' title='خەتتاب (قالدۇرغان3پارچە)'><img alt='' src='http://0.gravatar.com/avatar/6d3d6a6d76ef3eda93355b8bfba47ed6?s=32&amp;d=wavatar&amp;r=G' class='avatar avatar-32 photo' height='32' width='32' /></a><a href='http://www.uyghurbeg.net' 'rel='external nofollow'' title='ئۇيغۇربەگ (قالدۇرغان3پارچە)'><img alt='' src='http://1.gravatar.com/avatar/9db218625bc4c520219062c6e9f0ff3a?s=32&amp;d=wavatar&amp;r=G' class='avatar avatar-32 photo' height='32' width='32' /></a><a href='http://yeshil.blogbus.com' 'rel='external nofollow'' title='nuruz (قالدۇرغان3پارچە)'><img alt='' src='http://0.gravatar.com/avatar/4c8bc5049e4713c51ebc3a83d65e4d47?s=32&amp;d=wavatar&amp;r=G' class='avatar avatar-32 photo' height='32' width='32' /></a><a href='http://parestan.net' 'rel='external nofollow'' title='پرېستان (قالدۇرغان3پارچە)'><img alt='' src='http://0.gravatar.com/avatar/89b85abd956fa1b93a92939a60420cae?s=32&amp;d=wavatar&amp;r=G' class='avatar avatar-32 photo' height='32' width='32' /></a><a href='#' 'rel='external nofollow'' title='نۇرئەلى (قالدۇرغان3پارچە)'><img alt='' src='http://0.gravatar.com/avatar/eb2fc03bcd22be9c8a027cbe6739046e?s=32&amp;d=wavatar&amp;r=G' class='avatar avatar-32 photo' height='32' width='32' /></a><a href='http://www.dozah.com' 'rel='external nofollow'' title='كارو (قالدۇرغان2پارچە)'><img alt='' src='http://0.gravatar.com/avatar/08e5c6eb0a0800047ccf780f421a2ffc?s=32&amp;d=wavatar&amp;r=G' class='avatar avatar-32 photo' height='32' width='32' /></a><a href='#' 'rel='external nofollow'' title='ئابدۇللاھ (قالدۇرغان2پارچە)'><img alt='' src='http://0.gravatar.com/avatar/28080dfb748297a3b5441a84ca7cac16?s=32&amp;d=wavatar&amp;r=G' class='avatar avatar-32 photo' height='32' width='32' /></a><a href='http://orkax.net' 'rel='external nofollow'' title='شەمشەر117 (قالدۇرغان2پارچە)'><img alt='' src='http://1.gravatar.com/avatar/5b167f1f93902bb01d834d6d0acd3552?s=32&amp;d=wavatar&amp;r=G' class='avatar avatar-32 photo' height='32' width='32' /></a><a href='http://aqkepter.blogbus.com/' 'rel='external nofollow'' title='نۇرئەخمەت (قالدۇرغان2پارچە)'><img alt='' src='http://0.gravatar.com/avatar/8e3e8bd3191d3a7cca887596a9bad870?s=32&amp;d=wavatar&amp;r=G' class='avatar avatar-32 photo' height='32' width='32' /></a><a href='http://www.bilimlar.com/blog' 'rel='external nofollow'' title='بىلىملەر تورى (قالدۇرغان2پارچە)'><img alt='' src='http://0.gravatar.com/avatar/0af146450a2401ff8c7cd9524b26ac1b?s=32&amp;d=wavatar&amp;r=G' class='avatar avatar-32 photo' height='32' width='32' /></a><a href='http://www.uzkan.com' 'rel='external nofollow'' title='ئىرلان (قالدۇرغان2پارچە)'><img alt='' src='http://0.gravatar.com/avatar/66aaa949603bf60e0b1f57c525bfa70a?s=32&amp;d=wavatar&amp;r=G' class='avatar avatar-32 photo' height='32' width='32' /></a><a href='http://www.bilgu.net' 'rel='external nofollow'' title='abdrhimjan (قالدۇرغان1پارچە)'><img alt='' src='http://1.gravatar.com/avatar/febfc33163b48b49b13f005ab1190361?s=32&amp;d=wavatar&amp;r=G' class='avatar avatar-32 photo' height='32' width='32' /></a><a href='#' 'rel='external nofollow'' title='مېھرىبان (قالدۇرغان1پارچە)'><img alt='' src='http://1.gravatar.com/avatar/13ce8d9046b55b7ae21caea720ff3805?s=32&amp;d=wavatar&amp;r=G' class='avatar avatar-32 photo' height='32' width='32' /></a><a href='http://orkax.net' 'rel='external nofollow'' title='دولقۇن731 (قالدۇرغان1پارچە)'><img alt='' src='http://0.gravatar.com/avatar/8c32968c6b4e7a4147a8d3fdbe9edf80?s=32&amp;d=wavatar&amp;r=G' class='avatar avatar-32 photo' height='32' width='32' /></a><a href='#' 'rel='external nofollow'' title='gheyret (قالدۇرغان1پارچە)'><img alt='' src='http://1.gravatar.com/avatar/3242673d40c1b234cc46d0d55c359702?s=32&amp;d=wavatar&amp;r=G' class='avatar avatar-32 photo' height='32' width='32' /></a><a href='#' 'rel='external nofollow'' title='ئەلتىكىن (قالدۇرغان1پارچە)'><img alt='' src='http://1.gravatar.com/avatar/f1f587aec0d36a1b16cee35ad02478c5?s=32&amp;d=wavatar&amp;r=G' class='avatar avatar-32 photo' height='32' width='32' /></a>
+		</div>
+
+		<div class="clear"></div>
+
+	</div>
+
+	<div class="box-bottom">
+
+		<b class="lb"></b>
+
+		<b class="rb"></b>
+
+	</div>
+
+</div>
+
+
+	<div class="widget">
+
+		
+		
+	</div>
+
+
+
+	
+	
+	
+
+
+	<div class="rssblock">
+<script type="text/javascript">	
+	var s;
+	function showMessage(){
+	window.clearTimeout(s);
+	document.getElementById("message").style.display="block";
+	}
+	function hiddenMessage(){
+	s=window.setTimeout("hidden();",500);
+	}
+	function hidden(){
+	document.getElementById("message").style.display="none";
+	}
+</script>
+
+	<h3>بۇ بىكەتنى زاكاس قىلۋېلىڭ</h3>
+	<span onmouseover="showMessage()" onmouseout="hiddenMessage()"><div id="rssfeed"><a href="http://feed.feedsky.com/ugubuntu" title="بىكەتنى زاكاس قىلۋېلىڭ" class="image"><img src="http://www.ugubuntu.com/wp-content/themes/HotNewspro24/images/rsssub.png" /></a></div></span>
+	<div id="message" style="display:none" onmouseover="showMessage()" onmouseout="hiddenMessage()">
+		</div>
+	<div class="box-bottom">
+		<b class="lb"></b>
+		<b class="rb"></b>
+	</div>
+	<div class="clear"></div>
+</div>
+
+
+	<div class="widget">
+
+		
+		
+	</div>
+
+
+
+	<h3>تەسىس قىلىنغان تۈر</h3>	
+<div class="categories">
+	<div class="categories_c">
+		<ul>	<li class="cat-item cat-item-1"><a href="http://www.ugubuntu.com/category/cat_ico30" title="نۆلدىن باشلاپ ئۆگەنگۈچىلەرئۈچۈن">ئۇبۇنتۇ ئاساسى ساۋاتلىرى</a>
+</li>
+	<li class="cat-item cat-item-6"><a href="http://www.ugubuntu.com/category/cat_ico32" title="ئۇبۇنتۇ لىنۇكس يېڭىلىقلىرى">ئۇبۇنتۇ لىنۇكس يېڭىلىقلىرى</a>
+</li>
+	<li class="cat-item cat-item-7"><a href="http://www.ugubuntu.com/category/cat_ico42" title="بۇيرۇق/ئويلاپ باقمىغان ماھارەتلەر">ئۇبۇنتۇ ماھارەتلىرى</a>
+</li>
+	<li class="cat-item cat-item-8"><a href="http://www.ugubuntu.com/category/cat_ico26" title="ئۈستەل ئارايۈزى بېزەش غا ساقلانغان بارلىق يازمىلارنى كۆرۈش">ئۈستەل ئارايۈزى بېزەش</a>
+</li>
+	<li class="cat-item cat-item-101"><a href="http://www.ugubuntu.com/category/cat_ico14" title="ئۇبۇنتۇ سۈرەتلىك دەرسلىكلىرى">سۈرەتلىك دەرسلىكلەر</a>
+</li>
+	<li class="cat-item cat-item-9"><a href="http://www.ugubuntu.com/category/cat_ico21" title="كۆڭۈل ئېچىش/ئۇيۇنلار غا ساقلانغان بارلىق يازمىلارنى كۆرۈش">كۆڭۈل ئېچىش/ئۇيۇنلار</a>
+</li>
+	<li class="cat-item cat-item-4"><a href="http://www.ugubuntu.com/category/cat_ico1" title="ئەڭ يېڭى قۇرال/دېتاللار ">يۇمشاق دېتال تەۋسىيىسى</a>
+</li>
+</ul>
+	</div>
+	<div class="clear"></div>
+</div>
+<div class="box-bottom">
+	<b class="lb"></b>
+	<b class="rb"></b>
+</div>
+
+
+	<div class="widget">
+
+		
+		
+	</div>
+
+
+
+	
+
+
+	<div class="widget">
+
+		
+		
+	</div>
+
+
+
+	<div class="comments">
+
+		<script type="text/javascript"> 
+function H$(i) {return document.getElementById(i)}
+function H$$(c, p) {return p.getElementsByTagName(c)}
+var slider = function () {
+	function init (o) {
+		this.id = o.id;
+		this.at = o.auto ? o.auto : 3;
+		this.o = 0;
+		this.pos();
+	}
+	init.prototype = {
+		pos : function () {
+			clearInterval(this.__b);
+			this.o = 0;
+			var el = H$(this.id), li = H$$('li', el), l = li.length;
+			var _t = li[l-1].offsetHeight;
+			var cl = li[l-1].cloneNode(true);
+			cl.style.opacity = 0; cl.style.filter = 'alpha(opacity=0)';
+			el.insertBefore(cl, el.firstChild);
+			el.style.top = -_t + 'px';
+			this.anim();
+		},
+		anim : function () {
+			var _this = this;
+			this.__a = setInterval(function(){_this.animH()}, 20);
+		},
+		animH : function () {
+			var _t = parseInt(H$(this.id).style.top), _this = this;
+			if (_t >= -1) {
+				clearInterval(this.__a);
+				H$(this.id).style.top = 0;
+				var list = H$$('li',H$(this.id));
+				H$(this.id).removeChild(list[list.length-1]);
+				this.__c = setInterval(function(){_this.animO()}, 20);
+				//this.auto();
+			}else {
+				var __t = Math.abs(_t) - Math.ceil(Math.abs(_t)*.07);
+				H$(this.id).style.top = -__t + 'px';
+			}
+		},
+		animO : function () {
+			this.o += 2;
+			if (this.o == 100) {
+				clearInterval(this.__c);
+				H$$('li',H$(this.id))[0].style.opacity = 1;
+				H$$('li',H$(this.id))[0].style.filter = 'alpha(opacity=100)';
+				this.auto();
+			}else {
+				H$$('li',H$(this.id))[0].style.opacity = this.o/100;
+				H$$('li',H$(this.id))[0].style.filter = 'alpha(opacity='+this.o+')';
+			}
+		},
+		auto : function () {
+			var _this = this;
+			this.__b = setInterval(function(){_this.pos()}, this.at*1000);
+		}
+	}
+	return init;
+}();
+</script> 
+<!--------[ 滚动 ]----->
+
+
+<h3>ئەڭ يېڭى ئىنكاسلار</h3>
+<div class="r_comments">
+   <ul id="sliders" class="sliders">
+		
+<li><img alt='' src='http://1.gravatar.com/avatar/71369c1727d051bcc714301cfb800b6c?s=32&amp;d=wavatar&amp;r=G' class='avatar avatar-32 photo' height='32' width='32' /><p>مىنىستىر:<br /> <a href="http://www.ugubuntu.com/ubuntu11-04-uchun-mexsus-tema.html#comment-534" title="كۆرۈش يېڭى تارقىتىلغان ئۇبۇنتۇ 11.04 ئۈچۈن مەخسۇس تېما">مەن مۇشۇ 11.04نەشرىنى مەۋھۇم كومپيۇتىرغا  زادىلا قاچىلىيالمىدىم .سىزنىڭ تەس</a></p></li>
+<li><img alt='' src='http://0.gravatar.com/avatar/66aaa949603bf60e0b1f57c525bfa70a?s=32&amp;d=wavatar&amp;r=G' class='avatar avatar-32 photo' height='32' width='32' /><p>ئىرلان:<br /> <a href="http://www.ugubuntu.com/ug-ttf-fonts-deb.html#comment-531" title="كۆرۈش بىر deb ھۆججىتى بىلەن ئۇبۇنتۇغا ئۇيغۇرچە فونتلارنى تۇللۇق قاچىلاش">بولسا مۇشۇنى sell  ھالەتتە قانداق ئىشلىگىنىڭىزنى يوللاپ قويسىڭىز بوپتىكەن ،</a></p></li>
+<li><img alt='' src='http://0.gravatar.com/avatar/89b85abd956fa1b93a92939a60420cae?s=32&amp;d=wavatar&amp;r=G' class='avatar avatar-32 photo' height='32' width='32' /><p>پرېستان:<br /> <a href="http://www.ugubuntu.com/ug-ttf-fonts-deb.html#comment-529" title="كۆرۈش بىر deb ھۆججىتى بىلەن ئۇبۇنتۇغا ئۇيغۇرچە فونتلارنى تۇللۇق قاچىلاش">Alpida Unicode System ماۋۇ بولسا ئەلپىدا خەت نۇسخىسىنىڭ نامى، دېمەك ئەلپىدا</a></p></li>
+<li><img alt='' src='http://0.gravatar.com/avatar/66aaa949603bf60e0b1f57c525bfa70a?s=32&amp;d=wavatar&amp;r=G' class='avatar avatar-32 photo' height='32' width='32' /><p>ئىرلان:<br /> <a href="http://www.ugubuntu.com/ug-ttf-fonts-deb.html#comment-527" title="كۆرۈش بىر deb ھۆججىتى بىلەن ئۇبۇنتۇغا ئۇيغۇرچە فونتلارنى تۇللۇق قاچىلاش">ubuntu غا deb  ھالاتتە فونىت پىروگىراممىسى ياساپ قويۇپسىز ، باشقا centos , </a></p></li>
+<li><img alt='' src='http://0.gravatar.com/avatar/a636f8e415d1d249443ba0393b703b86?s=32&amp;d=wavatar&amp;r=G' class='avatar avatar-32 photo' height='32' width='32' /><p>مۇخلىس:<br /> <a href="http://www.ugubuntu.com/steadyflow-simple-download-manager-tool.html#comment-526" title="كۆرۈش ئۇبۇنتۇدىكى ناھايىتى ياخشى چۈشۈرگۈچ Steadyflow">مەن ئىزدەۋاتقان دېتالكەن بۇ ،مەن تېخى سىزدىن ftp دىن چۈشۈرىدېغان دېتال سورى</a></p></li>
+<li><img alt='' src='http://1.gravatar.com/avatar/71369c1727d051bcc714301cfb800b6c?s=32&amp;d=wavatar&amp;r=G' class='avatar avatar-32 photo' height='32' width='32' /><p>مىنىستىر:<br /> <a href="http://www.ugubuntu.com/ubuntuning-qaysiz-nusxisini-ishlitiwatisiz.html#comment-524" title="كۆرۈش ئۇبۇنتۇنىڭ قايسى نۇسخىسىنى ئىشلىتىۋاتىسىز؟ ">VMwareنى ئىشلىتىپ قاچىلىغاندا ئاپتۇماتىك قاچىلاپ كەتتى .تىخى ئىشلەتكىدەك بو</a></p></li>
+<li><img alt='' src='http://0.gravatar.com/avatar/4c8bc5049e4713c51ebc3a83d65e4d47?s=32&amp;d=wavatar&amp;r=G' class='avatar avatar-32 photo' height='32' width='32' /><p>nuruz:<br /> <a href="http://www.ugubuntu.com/qq-for-wine.html#comment-521" title="كۆرۈش ئۇبۇنتۇغا QQ2010 قاچىلاش">Open suse دا ئىشلەيدىغان Rpm بولاقچىسى بارمۇ؟</a></p></li>
+<li><img alt='' src='http://1.gravatar.com/avatar/5b167f1f93902bb01d834d6d0acd3552?s=32&amp;d=wavatar&amp;r=G' class='avatar avatar-32 photo' height='32' width='32' /><p>شەمشەر117:<br /> <a href="http://www.ugubuntu.com/ubuntuning-qaysiz-nusxisini-ishlitiwatisiz.html#comment-520" title="كۆرۈش ئۇبۇنتۇنىڭ قايسى نۇسخىسىنى ئىشلىتىۋاتىسىز؟ ">ubuntu نى   زادى  ئۈگىنىپ  قويماي  بولمىدى  ،  يەنە  بىر  نەچچە   يىلغا  قا</a></p></li>
+<li><img alt='' src='http://0.gravatar.com/avatar/eb2fc03bcd22be9c8a027cbe6739046e?s=32&amp;d=wavatar&amp;r=G' class='avatar avatar-32 photo' height='32' width='32' /><p>نۇرئەلى:<br /> <a href="http://www.ugubuntu.com/qq-for-wine.html#comment-518" title="كۆرۈش ئۇبۇنتۇغا QQ2010 قاچىلاش">بولىدۇ ،خې خې ... :grin:</a></p></li>
+<li><img alt='' src='http://0.gravatar.com/avatar/eb2fc03bcd22be9c8a027cbe6739046e?s=32&amp;d=wavatar&amp;r=G' class='avatar avatar-32 photo' height='32' width='32' /><p>نۇرئەلى:<br /> <a href="http://www.ugubuntu.com/ubuntugha-gnome3-qachilash.html#comment-517" title="كۆرۈش ئۇبۇنتۇغا Gnome3 قاچىلاش">ياقتۇرغاننى ئشلىتڭلا مۇخلىسجان ...  :grin:</a></p></li>
+<li><img alt='' src='http://0.gravatar.com/avatar/eb2fc03bcd22be9c8a027cbe6739046e?s=32&amp;d=wavatar&amp;r=G' class='avatar avatar-32 photo' height='32' width='32' /><p>نۇرئەلى:<br /> <a href="http://www.ugubuntu.com/ubuntugha-gnome3-qachilash.html#comment-516" title="كۆرۈش ئۇبۇنتۇغا Gnome3 قاچىلاش">مەن قاچىلىغاندىن كېيىن خەت شەك(ئۇيغۇرچە) ياخشى كۆرۈنمدى... :shock:</a></p></li>
+<li><img alt='' src='http://0.gravatar.com/avatar/a636f8e415d1d249443ba0393b703b86?s=32&amp;d=wavatar&amp;r=G' class='avatar avatar-32 photo' height='32' width='32' /><p>مۇخلىس:<br /> <a href="http://www.ugubuntu.com/gnome-terminal-uyghur-language.html#comment-514" title="كۆرۈش gnome تېرمىنالىدا ئۇيغۇرچە كۆرسىتىش">مەن بىر سۇئال سورىۋالاي ،مەن ئىشلىتىۋاتقان نۇسخىسى ئۇبۇنتۇ 10.10 نىڭ 64 لىك</a></p></li>
+<li><img alt='' src='http://1.gravatar.com/avatar/12128833ac0797b56e7b625df776684d?s=32&amp;d=wavatar&amp;r=G' class='avatar avatar-32 photo' height='32' width='32' /><p>رېتسىپ:<br /> <a href="http://www.ugubuntu.com/ubuntuning-qaysiz-nusxisini-ishlitiwatisiz.html#comment-511" title="كۆرۈش ئۇبۇنتۇنىڭ قايسى نۇسخىسىنى ئىشلىتىۋاتىسىز؟ ">سىزنىڭ لىنۇكىس توغرىسىدىكى ئىزدىنىشلىرىڭىز ناھايىتى ئەتراپلىق ھەم ئۈنۈملۈك </a></p></li>
+<li><img alt='' src='http://1.gravatar.com/avatar/71369c1727d051bcc714301cfb800b6c?s=32&amp;d=wavatar&amp;r=G' class='avatar avatar-32 photo' height='32' width='32' /><p>مىنىستىر:<br /> <a href="http://www.ugubuntu.com/ubuntuning-qaysiz-nusxisini-ishlitiwatisiz.html#comment-510" title="كۆرۈش ئۇبۇنتۇنىڭ قايسى نۇسخىسىنى ئىشلىتىۋاتىسىز؟ ">[img]http://photo.blog.sina.com.cn/photo/75b7663cxa315db88cc39[/img]
+
+ئادرى</a></p></li>
+<li><img alt='' src='http://1.gravatar.com/avatar/71369c1727d051bcc714301cfb800b6c?s=32&amp;d=wavatar&amp;r=G' class='avatar avatar-32 photo' height='32' width='32' /><p>مىنىستىر:<br /> <a href="http://www.ugubuntu.com/ubuntuning-qaysiz-nusxisini-ishlitiwatisiz.html#comment-509" title="كۆرۈش ئۇبۇنتۇنىڭ قايسى نۇسخىسىنى ئىشلىتىۋاتىسىز؟ ">رەسىمنى قانداق قىستۇرۇشنى تازا بىلىپ كىتەلمىدىم .
+[img]http://photo.blog.si</a></p></li>
+<li><img alt='' src='http://1.gravatar.com/avatar/71369c1727d051bcc714301cfb800b6c?s=32&amp;d=wavatar&amp;r=G' class='avatar avatar-32 photo' height='32' width='32' /><p>مىنىستىر:<br /> <a href="http://www.ugubuntu.com/ubuntuning-qaysiz-nusxisini-ishlitiwatisiz.html#comment-507" title="كۆرۈش ئۇبۇنتۇنىڭ قايسى نۇسخىسىنى ئىشلىتىۋاتىسىز؟ ">سىز ئىشلەتكەن مەۋھۇم كومپيۇتىر VirtualBoxمۇ ؟مەن windowsمۇھىتىدا 10.04نەشرى</a></p></li>
+<li><img alt='' src='http://1.gravatar.com/avatar/5e731e40fa9eb4558f774f5a71d5d35c?s=32&amp;d=wavatar&amp;r=G' class='avatar avatar-32 photo' height='32' width='32' /><p>بىغەم:<br /> <a href="http://www.ugubuntu.com/ubuntuning-qaysiz-nusxisini-ishlitiwatisiz.html#comment-506" title="كۆرۈش ئۇبۇنتۇنىڭ قايسى نۇسخىسىنى ئىشلىتىۋاتىسىز؟ ">مەن ھازىرچە 10.10نى ئىشلىتىۋاتىمەن. 11.4نى قاچىلاي دەپ ۋاقىت چىقىرىپ بولالم</a></p></li>
+<li><img alt='' src='http://0.gravatar.com/avatar/89b85abd956fa1b93a92939a60420cae?s=32&amp;d=wavatar&amp;r=G' class='avatar avatar-32 photo' height='32' width='32' /><p>پرېستان:<br /> <a href="http://www.ugubuntu.com/ubuntuning-qaysiz-nusxisini-ishlitiwatisiz.html#comment-505" title="كۆرۈش ئۇبۇنتۇنىڭ قايسى نۇسخىسىنى ئىشلىتىۋاتىسىز؟ ">مەن ئىنكاس يازمىغان بىلەن بۇ بلوگغا دائىم كېلىپ تۇرىمەن.</a></p></li>
+<li><img alt='' src='http://1.gravatar.com/avatar/71369c1727d051bcc714301cfb800b6c?s=32&amp;d=wavatar&amp;r=G' class='avatar avatar-32 photo' height='32' width='32' /><p>مىنىستىر:<br /> <a href="http://www.ugubuntu.com/ubuntu11-04-uchun-mexsus-tema.html#comment-501" title="كۆرۈش يېڭى تارقىتىلغان ئۇبۇنتۇ 11.04 ئۈچۈن مەخسۇس تېما">ipئادرىسىنى تەڭشەيدىغان ئورۇننى قانداق تەڭشەيدۇ ؟مىنىڭ كومپيۇتىرىممۇ تورغا </a></p></li>
+<li><img alt='' src='http://1.gravatar.com/avatar/71369c1727d051bcc714301cfb800b6c?s=32&amp;d=wavatar&amp;r=G' class='avatar avatar-32 photo' height='32' width='32' /><p>مىنىستىر:<br /> <a href="http://www.ugubuntu.com/ubuntuning-qaysiz-nusxisini-ishlitiwatisiz.html#comment-500" title="كۆرۈش ئۇبۇنتۇنىڭ قايسى نۇسخىسىنى ئىشلىتىۋاتىسىز؟ ">ئوبۇنتۇنىڭ 11.04نۇسخىسىنى مەۋھۇم كومپيۇتىرغا قاچىلىغىلى بولمامدۇ ؟يەنە ئاۋا</a></p></li> 
+   </ul>
+</div>
+<div class="box-bottom">
+	<b class="lb"></b>
+	<b class="rb"></b>
+</div>
+
+
+<!--------[ 滚动 ]----->
+<script type="text/javascript">
+new slider({id:'sliders'})
+</script>
+
+	</div>
+
+
+
+	<div class="widget">
+
+		
+		
+	</div>
+
+
+
+	﻿<h3>سىتاتىسكا ئورنى</h3>	
+
+<div class="statistics">
+
+	<div class="box">
+
+		<ul>ئومۇمىي يازما: 96پارچە</ul>
+
+        <ul>ئومۇمىي ئىنكاس: 474پارچە</ul>
+
+        <ul>تەسىس قىلىنغان تۈر 7پارچە</ul>
+
+        <ul>بارلىق خەتكۈشلەر: 143دانە</ul>
+
+		<ul>دوستانە ئۇلىنىشلار: 12</ul>
+
+		<ul>بلوگ ئېچىلغىلى: 77 كۈن بولدى </ul>
+
+		يېڭىلانغان ۋاقتى: 2011-يىل 19-May
+	</div>
+
+	<div class="clear"></div>
+
+</div>
+
+<div class="box-bottom">
+
+	<b class="lb"></b>
+
+	<b class="rb"></b>
+
+</div>
+
+
+	<div class="clear"></div>
+
+	<!-- end: widget -->
+
+	</div>﻿<div class="clear"></div>
+<div class="footer_top">
+	<div id="menu">
+						<ul id="cat-nav" class="nav">
+					<li class="page_item page-item-24"><a href="http://www.ugubuntu.com/biket-heqqide" title="بېكەت ھەققىدە">بېكەت ھەققىدە</a></li>
+<li class="page_item page-item-836"><a href="http://www.ugubuntu.com/blog-shekli" title="بىلوگ">بىلوگ</a></li>
+<li class="page_item page-item-1342"><a href="http://www.ugubuntu.com/metbuat" title="مەتبۇئات">مەتبۇئات</a></li>
+<li class="page_item page-item-32"><a href="http://www.ugubuntu.com/terjime" title="تەرجىمە">تەرجىمە</a></li>
+<li class="page_item page-item-39"><a href="http://www.ugubuntu.com/chushurush" title="چۈشۈرۈش">چۈشۈرۈش</a></li>
+<li class="page_item page-item-681"><a href="http://www.ugubuntu.com/ulinishlar" title="ئۇلىنىشلار">ئۇلىنىشلار</a></li>
+				</ul>
+			</div>
+	<h2 class="blogtitle">
+	<a href="http://www.ugubuntu.com/" title="ugubuntu">باش بەت</a></h2>
+	<big class="lt"></big>
+	<big class="rt"></big>
+</div>
+	<div class="link">
+		<li id="linkcat-2" class="linkcat"><h2>بىلوگلار</h2>
+	<ul class='xoxo blogroll'>
+<li><a href="http://shahblog.net/">شاھ ئۇيغۇر</a></li>
+<li><a href="http://uyghurbeg.net/">ئۇيغۇر بەگ</a></li>
+<li><a href="http://www.halastan.com/">خالاستان بىلوگى</a></li>
+<li><a href="http://www.uyghurpc.com/">كومپيۇتېر تەجرىبىخانىسى</a></li>
+<li><a href="http://qutblog.com/">قۇت بلوگ</a></li>
+<li><a href="http://uyubuntu.com/">ئۇبۇنتۇ ھەۋەسكارلىرى</a></li>
+
+	</ul>
+</li>
+<li id="linkcat-83" class="linkcat"><h2>بېكەتلەر</h2>
+	<ul class='xoxo blogroll'>
+<li><a href="http://www.uyghur.cc/">ئۇيغۇر ئۇلىنىش</a></li>
+<li><a href="http://www.bilimlar.com/">بىلىملەر تورى</a></li>
+<li><a href="http://www.dewr.org/">دەۋىر تورى</a></li>
+<li><a href="http://www.seburi.com/">سەبۇرى</a></li>
+<li><a href="http://kenjisoft.homelinux.com/soft/index.php">كەنجى سوفت</a></li>
+<li><a href="http://uqkun.net/">ئۇچقۇن تورى</a></li>
+
+	</ul>
+</li>
+		<div class="clear"></div>
+	</div>
+	<!-- end: link -->
+<div class="link_b">
+	<big class="lb"></big>
+	<big class="rb"></big>
+</div>
+	<div class="footer_bottom">
+		Copyright &copy; 2011 ugubuntuبارلىق ھوقۇقنى ساقلاپ قالغان. </span>ئۇسلۇب ياسىغۇچى :<a href="http://www.ugubuntu.com" title="http://www.ugubuntu.com">Robin.</a>
+	
+		قۇرۇلمىسىغا<a href="http://wordpress.org/" title="WordPress.org"> WordPress</a> ئىشلىتىلگەن.
+			</div>
+  	<div class="clear"></div>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var pollsL10n = {
+	ajax_url: "http://www.ugubuntu.com/wp-content/plugins/wp-polls/wp-polls.php",
+	text_wait: "Your last request is still being processed. Please wait a while ...",
+	text_valid: "Please choose a valid poll answer.",
+	text_multiple: "Maximum number of choices allowed: ",
+	show_loading: "1",
+	show_fading: "1"
+};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.ugubuntu.com/wp-content/plugins/wp-polls/polls-js.js?ver=2.50'></script>
+</div>
+</body></html>
